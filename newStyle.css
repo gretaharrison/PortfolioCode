@@ -1,0 +1,94 @@
+.container {width: 100%; padding:0; margin: 0; background: #FEF0AA; position: relative; right:0; z-index: 200;}
+.content {}
+.fixed {position:fixed; top:0;}
+
+.movecontainer {right: 200px;}
+
+body {
+	background: #FEF0AA;
+}
+
+.content {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.width-12 {
+  width: 98%;
+}
+
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #42413D;
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: 25%;
+  /*margin: 0 0 4% 0;*/
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #42413D;
+  font-size: 5.5em;
+  text-align: center;
+  margin-bottom: 0px;
+  margin: 0 0 4% 0;
+}
+
+h4 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  color: #42413D;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+input[type=submit], input[type=button], button {
+    border: 1px solid #42413D;
+    background: #FEF0AA;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1.4em;
+    padding: 10px;
+
+}
+
+/* -----------------------------------------------
+   ------ Media queries from Small to Large ------
+   ----------------------------------------------- */
+
+/* ----- Mobile & Phablets in portrait----- */
+@media only screen and (max-width: 415px) {
+h1 {font-size: 3em;}
+h2 {font-size:1em; margin-bottom: 90px;}
+h4 {font-size:1em;}
+.short {margin: 30px auto 30px auto; width:100%;}
+section {padding: 0 30px 0 30px;}
+.width-1, .width-2, .width-3, .width-4, .width-5, .width-6, .width-7, .width-8, .width-9, .width-10, .width-11, .width-12 {width: 100%;}
+.width-2, .width-4, .width-9, .width-10, h3, li {width: 100%!important; text-align: center!important; margin-right: auto; margin-left: auto;}
+.homeText::after {display: none;}
+.homeText::after {content: "test test";}
+}
+
+/* ----- Mobile & Phablets in landscape ----- */
+@media only screen and (min-width: 416px) and (max-width: 767px) {
+section {padding: 0 30px 0 30px;}
+h1 {font-size: 4em;}
+h2 {font-size:1.4em;}
+h4 {font-size:1.2em;}
+.short {width:100%;}
+.width-2, .width-3, .width-4, .width-9, .width-10, h3, li {width: 100%!important; text-align: center!important; margin-right: auto; margin-left: auto;}
+}
+
+/* ----- Tablets in both views ----- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+h1 {font-size: 5em;}
+.width-3, .width-9, h3 {width: 100%!important; text-align: center!important; margin-right: auto; margin-left: auto;}
+}
+
