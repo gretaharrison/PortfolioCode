@@ -1,0 +1,77 @@
+/* ------------------------------------------------------------------------
+   ------ Additional styles that build on top of the core.css styles ------
+   ------------------------------------------------------------------------ */
+/*font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+/* ----- HOME PAGE IMAGE AND TEXT BLOCK ----- */
+   
+ .homeImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+/*  background-attachment: fixed; -- Use this if you want the image to scale down when the browser gets smaller */
+  background-position: 50% 50%;
+  position: relative;
+}
+  
+.homeImage-textblock {
+  position: absolute;
+  top: 50%;
+  left:20px;
+  right:20px;
+  resize:vertical;
+  transform: translateY(-50%);
+}
+
+.homeImage h1, .homeImage h2 {
+  line-height: 1.4em;
+  color: #42413D;
+  font-size: 4em;
+}
+
+ .homeImage h3, .homeImage h4, .homeImage h5 {
+  font-family: 'Quicksand', sans-serif;
+  color: #42413D;
+  font-size: 2em;
+ }
+
+.abtImg {
+  /*opacity: 0.5;*/
+}
+
+.homeAbtHey {
+  font-weight: 100;
+  color: #42413D;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  margin-top: 10%;
+  line-height: 120%;
+  /*margin-bottom: 8%;*/
+}
+
+.homeAbtText {
+  font-weight: 200;
+  color: #42413D;
+  font-size: 1.4em;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.checkOutPort {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  font-size: 3em;
+  font-weight: 200;
+  line-height: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+

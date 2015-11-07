@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Greta</title>
+<link rel="stylesheet" href="core.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+<div class="container">
+
+	<div class="content">
+
+		<header>
+			<div class="raccoonGrid group"><!-- Start Grid div -->
+				<div class="col width-5nav">
+					<div class="nav">
+						<ul>
+							<!-- where the logo pic and link was -->
+						</ul>
+					</div>
+				</div>
+				<div class="col width-7nav">
+					<div class="nav">
+						<ul class="navlinks">
+							<li><a href="index.html">Home</a></li>
+							<li><a class="active" href="aboutme.html">About Me</a></li>
+							<li><a href="http://www.medium.com" target="_blank">UX Blog</a></li>
+							<li><a href="mailto:gretarrison@gmail.com">Let's Chat</a></li>
+							<li class="social"><a href="#"><img class="icon-social" src="images/logo-linkedin.png"></a></li>
+							<li class="social"><a href="#"><img class="icon-social" src="images/logo-twitter.png"></a></li>
+						</ul>
+					</div>
+					<div class="navburger-toggle">
+						<ul>
+							<li><img class="burgernav" src="images/navburger-open.png"></li>
+						</ul>
+					</div>
+				</div>
+			</div><!-- End div -->
+		</header>
+
+
+		<section class="raccoonGrid group">
+			<div class="col width-12 short centered">
+				<img class="profile" src="images/profile.png">
+				<h3>Greta Harrison</h3>
+				<h4>I&rsquo;m a User Experience designer and former entrepreneur who makes beautiful and efficiently designed things. Some people go to business school, I founded a company. Before discovering my calling in UX Design I was running an e-commerce site that I founded in 2012. At my company I was a team of one and was responsible for all aspects of business - from web development to order fulfillment. To break free from my template-based website, I learned to code and used analytics to track users navigating through my site - this is when I discovered my love for UX. I&rsquo;m passionate about functional design and with my formalized skills through GA&rsquo;s UXDi immersive program, I&rsquo;m ready to make my mark at a new company with a great product and awesome team.</h4>
+			</div>
+		</section><!-- End section -->
+
+
+
+		<section class="raccoonGrid group">
+			<div class="col width-12 short">
+				<section class="raccoonGrid group">
+					<div class="col width-4 no-bottom-margin">
+						<h3>Soft Skills</h3>
+					</div>
+					<div class="col width-4 no-bottom-margin">
+						<ul>
+							<li>User Testing</li>
+							<li>User Interviewing</li>
+							<li>User Onboarding</li>
+						</ul>
+					</div>
+					<div class="col width-4 no-bottom-margin">
+						<ul>
+							<li>Idea Presentation</li>
+							<li>Cross Functional Team Colab</li>
+							<li>Stakeholder Interviewing</li>
+						</ul>
+					</div>
+				</section><!-- End section -->
+			</div>
+		</section><!-- End section -->
+
+
+		<section class="raccoonGrid group">
+			<div class="col width-12 short">
+				<section class="raccoonGrid group">
+					<div class="col width-4 no-bottom-margin">
+						<h3>Hard Skills</h3>
+					</div>
+					<div class="col width-4 no-bottom-margin">
+						<ul>
+							<li>Axure</li>
+							<li>Invision</li>
+							<li>Adobe CC</li>
+						</ul>
+					</div>
+					<div class="col width-4 no-bottom-margin">
+						<ul>
+							<li>Sketch</li>
+							<li>Omnigraffle</li>
+							<li>HTML CSS</li>
+						</ul>
+					</div>
+				</section><!-- End section -->
+			</div>	
+		</section><!-- End section -->
+
+	</div><!-- End content -->
+
+	<section class="raccoonGrid group">
+		<div class="col width-12 centered">
+			<button>
+				<h5><a class="button" href="mailto:email@generalassembly.com">Let's Chat</a></h5>
+			</button>
+		</div>
+	</section><!-- End section -->
+
+<footer>
+	<div class="footer-content">
+		<div class="raccoonGrid group">
+			<div class="col width-6">
+				<span><a href="mailto:email@generalassembly.com">email@generalassembly.com</a></span>
+			</div>
+			<div class="col width-6 footer-alignright">
+				<span>&copy; 2015 General Assembly</span>
+			</div>
+		</div><!-- End section -->
+	</div>
+</footer>
+
+</div><!-- End container -->
+
+<!-- Nav Hamburger -->
+<div class="navburger-content">
+	<ul class="navburger-links">
+		<li class="nav-title">Menu</li>
+		<li><a href="index.html">Home</a></li>
+		<li><a class="active" href="aboutme.html">About Me</a></li>
+		<li><a href="http://www.medium.com" target="_blank">UX Blog</a></li>
+		<li><a href="mailto:email@generalassembly.com">Let's Chat</a></li>
+	</ul>
+</div>
+
+<!-- Raccoon Side Nav -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".burgernav").click(function() {
+		$(".container").toggleClass("movecontainer", 200);
+	});
+});
+
+</script>
+
+</body>
+</html>

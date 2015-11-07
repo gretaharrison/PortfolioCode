@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Greta Harrison</title>
+<link rel="stylesheet" href="core.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700|Work+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700,900,100italic,300,300italic' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+<div class="container">
+
+	<div class="content">
+
+		<header>
+		<div class="raccoonGrid group">
+			<div class="col width-5nav">
+				<div class="nav">
+					<ul>
+						<!-- where the logo pic and link was -->
+					</ul>
+				</div>
+			</div>
+			<div class="col width-7nav">
+				<div class="nav">
+					<ul class="navlinks">
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a href="#portfolioArea">Portfolio</a></li> <!-- this link goes to portfolio section -->
+						<li><a href="aboutme.html">About Me</a></li>
+						<li><a href="http://www.medium.com" target="_blank">UX Blog</a></li>
+						<li><a href="mailto:email@generalassembly.com">Get in Touch</a></li>
+						<li class="social"><a href="#"><img class="icon-social" src="images/whiteLinkedIn.png"></a></li>
+						<li class="social"><a href="#"><img class="icon-social" src="images/twitterIcon.png"></a></li>
+					</ul>
+				</div>
+				<div class="navburger-toggle">
+					<ul>
+						<li><img class="burgernav" src="images/navburger-open.png"></li>
+					</ul>
+				</div>
+			</div>
+			</div><!-- End div -->
+		</header>
+
+		<div class="homeImage" style=" background-image: url('images/Yellow_Back.png'); height:680px;">
+			<div class="homeImage-overlay">
+				<section class="raccoonGrid group homeImage-textblock"><!-- Start Grid section -->
+						<div class="col width-12">
+							<h1 class="centered">Greta Harrison</h1>
+							<h4 class="centered">UX Designer</h4>
+						</div>
+					</section>
+			</div>
+		</div>
+
+		<div class="abtImg" style="background-image: url('images/blueRect.png'); height:450px;">
+			<!-- <div class="homeImage-overlay"> -->
+				<section class="raccoonGrid group"><!-- Start Grid section -->
+						<div class="col width-12">
+							<!-- <h2 class = "homeAbtHey centered">Hey!</h2> -->
+							<h2 class="homeAbtHey centered">I'm a user experience designer specializing in product design and creating innovative digital experiences. My approach combines deep strategic business acumen, technical knowledge, and hands-on design skills.</h2>
+						</div>
+				</section>
+			<!-- </div> -->
+		</div>
+
+		<a name="portfolioArea"></a>
+		<section class="raccoonGrid group"><!-- Start raccoonGrid -->
+
+			<h2 class="checkOutPort">Check out some of my work:</h2>
+
+			<!-- Project 1 -->
+<!-- 			<div class="col width-3">
+				<a href="project1.html"><img src='images/Performance.png'></a>
+				<h5 class="heading">One Drop</h5>
+				<p>App re-design</p>
+			</div> -->
+
+			<!-- Project 2 -->
+			<div class="col width-3">
+				<a href="project2.html"><img src="images/Performance.png"></a>
+				<h5 class="heading">Harvest</h5>
+				<p>Designing for social impact.</p>
+			</div>
+
+			<!-- Project 3 -->
+			<div class="col width-3">
+				<a href="project3.html"><img src="images/Performance.png"></a>
+				<h5 class="heading">Performance Bike</h5>
+				<p>Desktop e-commerce re-design</p>
+			</div>
+
+			<!-- Project 4 -->
+			<div class="col width-3">
+				<a href="project4.html"><img src="images/Zillow.png"></a>
+				<h5 class="heading">Zillow</h5>
+				<p>App re-design concept, mobile iOS</p>
+			</div>
+
+		</section><!-- End raccoonGrid -->
+		
+	</div><!-- End content -->
+
+
+
+<footer>
+	<div class="footer-content">
+		<div class="raccoonGrid group">
+			<div class="col width-6">
+				<span>&copy; Copyright 2015 - greta.works - All Rights Reserved</span>
+				<!-- <span><a href="mailto:email@generalassembly.com">email@generalassembly.com</a></span> -->
+			</div>
+			<div class="col width-6 footer-alignright">
+				<!-- Otherside of the footer -->
+			</div>
+		</div><!-- End section -->
+	</div>
+</footer>
+
+
+
+</div><!-- End container -->
+
+
+<!-- Nav Hamburger -->
+<div class="navburger-content">
+	<ul class="navburger-links">
+		<li class="nav-title">Menu</li>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+		<li><a href="http://www.medium.com" target="_blank">UX Blog</a></li>
+		<li><a href="mailto:email@generalassembly.com">Let's Chat</a></li>
+	</ul>
+</div>
+
+
+<!-- Raccoon Side Nav -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".burgernav").click(function() {
+		$(".container").toggleClass("movecontainer", 200);
+	});
+});
+
+</script>
+
+
+
+</body>
+</html>

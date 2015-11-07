@@ -44,6 +44,9 @@ img.burgernav {width: 25px; cursor: pointer; position: relative;}
 
 .movecontainer {right: 200px;}
 
+.homeImage {
+  height: 680px;
+}
 
 /* ----- Typography ----- */
 h1 {font-family: 'Quicksand', sans-serif; font-weight: 300;}
@@ -309,13 +312,13 @@ h4 {font-size:1.1em;}
 img.logo {max-width:180px; display: block;}
 .navlinks {display: none;}
 .navburger-toggle {display:block;}
-header {clear:both; margin:0; padding: 30px 30px 10px 30px;}
-section {padding: 0 30px 0 30px;}
+header {clear:both; margin:0; padding: 30px 30px 10px 30px;} 
 ul.with-bullets li {padding:0;}
 .footer-content {text-align: center!important;}
 .footer-alignright {text-align: center;}
 .width-1, .width-2, .width-3, .width-4, .width-5, .width-6, .width-7, .width-8, .width-9, .width-10, .width-11, .width-12 {width: 100%;}
 .width-2, .width-4, .width-9, .width-10, h3, li {width: 100%!important; text-align: center!important; margin-right: auto; margin-left: auto;}
+.homeImage {height: 500px;}
 }
 
 /* ----- Mobile & Phablets in landscape ----- */
@@ -323,19 +326,21 @@ ul.with-bullets li {padding:0;}
 img.logo {max-width:200px; display: block;}
 .navlinks {display: none;}
 .navburger-toggle {display:block;}
-header {clear:both; margin:0; padding: 30px 30px 10px 30px;}
+header {clear:both; margin:0; padding: 30px 30px 10px 30px;} 
 section {padding: 0 30px 0 30px;}
 h3 {font-size:1.4em;}
 h4 {font-size:1.2em;}
 ul.with-bullets li {padding:0;}
 .short {width:100%;}
 .width-2, .width-3, .width-4, .width-9, .width-10, h3, li {width: 100%!important; text-align: center!important; margin-right: auto; margin-left: auto;}
+.homeImage {height: 600px;}
 }
 
 /* ----- Tablets in both views ----- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 header {clear:both; margin:0; padding: 30px 0 0 0;}
 .width-3, .width-9, h3 {width: 100%!important; text-align: center!important; margin-right: auto; margin-left: auto;}
+.homeImage {height: 680px;}
 }
 
 
