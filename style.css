@@ -72,12 +72,17 @@ font-family: 'Work Sans', sans-serif;*/
   font-family: 'Quicksand', sans-serif;
   margin-bottom: 5%;
   margin-top: 5%;
-  /*line-height: 1.4em;*/
+  line-height: 1.4em;
   color: #42413D;
   font-size: 3em;
   font-weight: 100;
 }
 
+iframe.vimeo {
+  width: 100vw;
+  /*height: 100vh;*/
+  margin-left: 0;
+}
 
 
 

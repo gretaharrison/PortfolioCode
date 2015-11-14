@@ -23,7 +23,7 @@ img.icon-social {width: 20px; cursor: pointer; vertical-align: middle;}
 .nav ul.navlinks {float: right; line-height: 24px;}
 .nav ul.navlinks li {list-style: none; display: inline; float: left; margin: 0 0 0 20px;}
 .nav ul.navlinks li.social {line-height: 20px;}
-.nav ul.navlinks li:last-child {margin: 0 0 0 10px;}
+.nav ul.navlinks li:last-child {margin: 0 0 0 20px;}
 
 .nav ul li {list-style: none; display: inline; float: left; margin: 0;}
 .nav ul li a, .nav ul li a:visited {font-family: 'Roboto', sans-serif; display: block; text-decoration: none; color: #42413D; font-weight: normal;}
@@ -64,8 +64,8 @@ a {outline: none; outline:0; text-decoration: none;}
 
 /* ----- Content ----- */
 img {max-width:100%; max-height:100%; border:0;}
-img.profile {margin-bottom: 1em;}
-.icon img {width:30px; margin-right: 20px;}
+img.profile {margin-bottom: 1.25em; max-width: 300px;}
+.icon img {width:50px; margin-right: 20px;}
 ul, li {list-style: none;}
 li {padding-bottom: 10px;}
 ul.with-bullets {padding: 15px 0;}
@@ -78,7 +78,7 @@ ul.with-bullets li {list-style: disc; padding-left: 15px; list-style-position: i
 
 /* ----- Buttons ----- */
 a.button {
-  background: #00a4ed;
+  background: #FEF0AA;
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
   border-radius: 90px;
@@ -319,6 +319,7 @@ ul.with-bullets li {padding:0;}
 .width-1, .width-2, .width-3, .width-4, .width-5, .width-6, .width-7, .width-8, .width-9, .width-10, .width-11, .width-12 {width: 100%;}
 .width-2, .width-4, .width-9, .width-10, h3, li {width: 100%!important; text-align: center!important; margin-right: auto; margin-left: auto;}
 .homeImage {height: 500px;}
+iframe.marvel {width: 290px; margin-top: -150px;}
 }
 
 /* ----- Mobile & Phablets in landscape ----- */
