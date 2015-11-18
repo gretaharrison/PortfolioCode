@@ -84,8 +84,16 @@ iframe.vimeo {
   margin-left: 0;
 }
 
+#AboutTop {
+  /*line-height: 1.4em;*/
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
 
-
+p.aboutText {
+  color: #42413D;
+  font-weight: 300;
+}
 
 
 

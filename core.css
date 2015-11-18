@@ -4,7 +4,7 @@
 
 
 /* ----- Body ----- */
-body {font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 95%; color: #333; line-height: 1.7em; font-weight: 300; height:100%; background: #fff;}
+body {font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 95%; color: #42413D; line-height: 1.7em; font-weight: 300; height:100%; background: #fff;}
 
 
 /* ----- Global structure ----- */
@@ -34,13 +34,13 @@ img.icon-social {width: 20px; cursor: pointer; vertical-align: middle;}
 .navburger-toggle li {list-style:none;}
 img.burgernav {width: 25px; cursor: pointer; position: relative;}
 
-.navburger-content {position:absolute; z-index: 1; top:38px; right:0; height:100%; background: #111; width:200px;}
+.navburger-content {position:absolute; z-index: 1; top:38px; right:0; height:100%; background: #42413D; width:200px;}
 
 .navburger-links {}
 .nav-title {text-transform: uppercase; color: #fff; font-size: 1em; font-weight: bold; padding-bottom: 20px;}
 .navburger-links li {list-style:none; display: block; float:none; margin-left:0px; margin-bottom:8px; text-align: center;}
-.navburger-links li a, .navburger-links li a:visited {text-transform: uppercase; display: block; text-decoration: none; color: #888; font-weight: bold;}
-.navburger-links li a:hover, .navburger-links li a.active {color: #569cc8;}
+.navburger-links li a, .navburger-links li a:visited {text-transform: uppercase; display: block; text-decoration: none; color: #FEF0AA; font-weight: bold;}
+.navburger-links li a:hover, .navburger-links li a.active {color: #FEF0AA;}
 
 .movecontainer {right: 200px;}
 
@@ -82,7 +82,7 @@ a.button {
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
   border-radius: 90px;
-  color: #fff;
+  color: #42413D;
   padding: 8px 20px;
   display: block;
 }
@@ -96,8 +96,8 @@ button {
   margin: 40px auto;
 }
 
-.projnav-left {background-image: url('images/arrow-projnav-left.png')!important; background-color: #fff!important; border:1px solid #ddd!important; color:#999!important; background-repeat: no-repeat!important; padding: 8px 20px 8px 30px!important; background-position: 15%!important; background-size: 8px!important;}
-.projnav-right {background-image: url('images/arrow-projnav-right.png')!important; background-color: #fff!important; border:1px solid #ddd!important; color:#999!important; background-repeat: no-repeat!important; padding: 8px 30px 8px 20px!important; background-position: 85%!important; background-size: 8px!important;}
+.projnav-left {background-image: url('images/arrow-projnav-left.png')!important; background-color: #fff!important; border:1px solid #ddd!important; color:#42413D!important; background-repeat: no-repeat!important; padding: 8px 20px 8px 30px!important; background-position: 15%!important; background-size: 8px!important;}
+.projnav-right {background-image: url('images/arrow-projnav-right.png')!important; background-color: #fff!important; border:1px solid #ddd!important; color:#42413D!important; background-repeat: no-repeat!important; padding: 8px 30px 8px 20px!important; background-position: 85%!important; background-size: 8px!important;}
 .black {background-color:#222!important;}
 
 /* ----- Footer ----- */
