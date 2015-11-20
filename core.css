@@ -15,7 +15,6 @@ body {font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 95%; color
 /* ----- Header ----- */
 header {max-width:1155px; margin:0 auto; padding: 20px 30px 10px 30px;}
 section {max-width:1155px; margin:0 auto; padding: 0 30px;} /*Original changed from 0 30px*/
-img.logo {max-width:260px;}
 img.icon-social {width: 20px; cursor: pointer; vertical-align: middle;}
 
 /* ----- Nav Normal ----- */

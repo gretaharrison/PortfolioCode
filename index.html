@@ -29,7 +29,6 @@
 						<li><a class="active" href="index.html"><b>Home</b></a></li>
 						<li><a href="#portfolioArea">Portfolio</a></li> <!-- this link goes to portfolio section -->
 						<li><a href="aboutme.html">About Me</a></li>
-						<!-- <li><a href="https://medium.com/@gretygarbo" target="_blank">UX Blog</a></li> -->
 						<li><a href="gretarrison@gmail.com">Email Me</a></li>
 						<li class="social"><a href="https://www.linkedin.com/in/gretarrison" target="_blank"><img class="icon-social" src="http://gretaworks.odi.netdna-cdn.com/images/whiteLinkedIn.png"></a></li>
 						<li class="social"><a href="https://twitter.com/gretygarbo" target="_blank"><img class="icon-social" src="http://gretaworks.odi.netdna-cdn.com/images/twitterIcon.png"></a></li>
@@ -64,7 +63,13 @@
 			<div class="col width-6">
 				<a href="oneDropInteractive.html"><img src="http://gretaworks.odi.netdna-cdn.com/images/OneDrop-min1.jpg"></a>
 				<h5 class="heading">One Drop Interactive</h5>
-				<p>Mobile Gamified Experience</p>
+				<p>Product Design for Mobile Game</p>
+			</div>
+
+			<div class="col width-6">
+				<a href="mint.html"><img src="http://gretaworks.odi.netdna-cdn.com/images/Mint-min1.png"></a>
+				<h5 class="heading">Mint</h5>
+				<p>Product Design, Branding, UX/UI</p>
 			</div>
 
 			<div class="col width-6">
@@ -79,12 +84,6 @@
 				<p>Desktop e-commerce re-design</p>
 			</div>
 
-			<div class="col width-6">
-				<!-- <a href="performanceBike.html"> --><img src="http://gretaworks.odi.netdna-cdn.com/images/Mint-min1.png"></a>
-				<h5 class="heading">Mint</h5>
-				<p>Coming Soon: Product Design, UX/UI and Branding</p>
-			</div>
-			
 
 		</section><!-- End raccoonGrid -->
 
@@ -119,7 +118,6 @@
 		<li class="nav-title">Menu</li>
 		<li><a class="active" href="index.html">Home</a></li>
 		<li><a href="aboutme.html">About Me</a></li>
-		<!-- <li><a href="https://medium.com/@gretygarbo" target="_blank">UX Blog</a></li> -->
 		<li><a href="mailto:gretarrison@gmail.com">Email Me</a></li>
 	</ul>
 </div>
@@ -154,6 +152,27 @@ target="_blank"><img class="statcounter"
 src="http://c.statcounter.com/10704209/0/4cf9c13f/1/"
 alt="shopify analytics"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->
+
+<script>
+$( window ).load( function() {
+
+	$( "#preloader" ).delay( 900 ).fadeOut( 500 )
+
+
+	$("a[href*=#]:not([href=#])").on( "click", function() {
+  	if (location.pathname.replace(/^\//,") == this.pathname.replace(/^\//,") && location.hostname == this.hostname) {
+  		var target = $(this.hash)
+  		target = target.length ? target : $( "[name=" + this.hash.slice( 1 ) +"]" )
+  	if (target.length) {
+    	$( "html,body" ).animate({
+      		scrollTop: target.offset().top
+    	}, 1000)
+    	return false
+	  	}
+  	}
+	})
+})
+</script>
 
 
 

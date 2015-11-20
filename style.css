@@ -95,6 +95,14 @@ p.aboutText {
   font-weight: 300;
 }
 
+img.icon-social-about {width: 50px; cursor: pointer;}
+
+.MintHeaders {
+  /*line-height: 1.4em;*/
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 
 
